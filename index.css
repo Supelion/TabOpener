@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "BAHNSCHRIFT";
+    src: url('BAHNSCHRIFT.TTF');
+}
+
+body {
+    font-family: 'BAHNSCHRIFT';
+    font-size: large;
+    margin: 0;
+    background-color: rgb(0, 0, 70);
+    padding: 10px;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    font-family: 'BAHNSCHRIFT';
+    padding: 5px 10px;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+}
+
+.body-div {
+    font-family: 'BAHNSCHRIFT';
+    text-align: center;
+}
+
+#save-input {
+    margin-top: 4px;
+    font-size: large;
+    background: #ffffff;
+    color: rgb(0, 0, 70);
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    font-weight: bold;
+    font-family: 'BAHNSCHRIFT';
+}
+
+#delete-btn {
+    margin-top: 4px;
+    font-size: large;
+    background: rgb(0, 0, 70);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    font-weight: bold;
+    font-family: 'BAHNSCHRIFT';
+}
+
+ul {
+    list-style: none;
+    font-family: 'BAHNSCHRIFT';
+    margin-top: 20px;
+    padding-left: 0px;
+    
+}
+
+li {
+    margin-top: 5px;
+    font-family: 'BAHNSCHRIFT';
+}
+
+a {
+    color: #ffffff;
+    font-family: 'BAHNSCHRIFT';
+}

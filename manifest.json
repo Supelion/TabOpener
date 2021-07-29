@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "0.1",
+    "author": "Supelion",
+    "description": "A extension that opens up multiple tabs at once. Made for lazy people like Supelion, by Supelion!",
+    "name": "Tab Opener",
+    "icons": {
+        "16":"logo.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "logo.png"
+    }
+}
