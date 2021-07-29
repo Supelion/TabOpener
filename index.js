@@ -32,10 +32,13 @@ function showLinks() {
 saveButton.addEventListener("click", saveButtonClick);
 // Function for when the save button is clicked
 function saveButtonClick() {
-    myLinks.push(inputEl.value)
-    inputEl.value = ""
+    let inputtedLink = inputEl.value
+    if (inputtedLink.length > 1) {
+    myLinks.push(inputtedLink)
+    inputtedLink.value = ""
     localStorage.setItem("links", JSON.stringify(myLinks))
     showLinks()
+    }
 }
 
 deleteButton.addEventListener("click", deleteButtonClick);
