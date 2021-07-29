@@ -36,7 +36,7 @@ function saveButtonClick() {
     showLinks()
 }
 
-deleteButton.addEventListener("dbclick", deleteButtonClick);
+deleteButton.addEventListener("click", deleteButtonClick);
 // Function for when the delete button is clicked
 function deleteButtonClick() {
     localStorage.clear()
