@@ -40,8 +40,19 @@ input {
 #delete-btn {
     margin-top: 4px;
     font-size: large;
-    background: rgb(0, 0, 70);
-    color: #ffffff;
+    background: #ffffff;
+    color: rgb(0, 0, 70);
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    font-weight: bold;
+    font-family: 'BAHNSCHRIFT';
+}
+
+#open-btn {
+    margin-top: 4px;
+    font-size: large;
+    background: #ffffff;
+    color: rgb(0, 0, 70);
     padding: 10px 20px;
     border: 1px solid #ffffff;
     font-weight: bold;

@@ -8,6 +8,8 @@ const saveButton = document.getElementById("save-input");
 const listEl = document.getElementById("list-el");
 // Fetching the Delete Button from the DOM
 const deleteButton = document.getElementById("delete-btn");
+// Fetching the Open Button from the DOM
+const openAllButton = document.getElementById("open-btn");
 
 // See if links are stored in local storage and if so, parse them
 let linksFromLocalStorage = JSON.parse(localStorage.getItem("links"));
@@ -42,4 +44,11 @@ function deleteButtonClick() {
     localStorage.clear()
     myLinks = []
     showLinks()
+}
+
+openAllButton.addEventListener("click", openAllButtonClick);
+function openAllButtonClick() {
+    for (let n = 0; n < myLinks.length; n += 1) {
+        window.open(myLinks[n]);
+    }
 }
